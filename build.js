@@ -18,10 +18,10 @@ function getCurrentPlatform(){
 builder.build({
     targets: (process.argv[2] != null && Platform[process.argv[2]] != null ? Platform[process.argv[2]] : getCurrentPlatform()).createTarget(),
     config: {
-        appId: 'helioslauncher',
-        productName: 'Helios Launcher',
+        appId: 'divacraftlauncher',
+        productName: 'DivaCraft Launcher',
         artifactName: '${productName}-setup-${version}.${ext}',
-        copyright: 'Copyright © 2018-2020 Daniel Scalzi',
+        copyright: 'Copyright © 2020 DivaCraft',
         directories: {
             buildResources: 'build',
             output: 'dist'
@@ -46,10 +46,10 @@ builder.build({
         },
         linux: {
             target: 'AppImage',
-            maintainer: 'Daniel Scalzi',
-            vendor: 'Daniel Scalzi',
-            synopsis: 'Modded Minecraft Launcher',
-            description: 'Custom launcher which allows users to join modded servers. All mods, configurations, and updates are handled automatically.',
+            maintainer: 'DivaCraft',
+            vendor: 'DivaCraft',
+            synopsis: 'Launcher Minecraft moddé du serveur DivaCraft',
+            description: 'Launcher Minecraft customisé permettant de rejoindre le serveur moddé DivaCraft. Tous les mods et les mises à jour sont gérées automatiquement.',
             category: 'Game'
         },
         compression: 'maximum',
