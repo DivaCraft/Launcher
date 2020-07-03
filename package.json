@@ -1,13 +1,13 @@
 {
-  "name": "helioslauncher",
+  "name": "divacraftlauncher",
   "version": "1.7.0",
-  "productName": "Helios Launcher",
-  "description": "Modded Minecraft Launcher",
-  "author": "Daniel Scalzi (https://github.com/dscalzi/)",
+  "productName": "DivaCraft Launcher",
+  "description": "Launcher Minecraft moddé du modpack et serveur DivaCraft",
+  "author": "DivaCraft (https://github.com/DivaCraft/)",
   "license": "UNLICENSED",
-  "homepage": "https://github.com/dscalzi/HeliosLauncher",
+  "homepage": "https://github.com/DivaCraft/Launcher",
   "bugs": {
-    "url": "https://github.com/dscalzi/HeliosLauncher/issues"
+    "url": "https://github.com/DivaCraft/Launcher/issues"
   },
   "private": true,
   "main": "index.js",
@@ -47,6 +47,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dscalzi/HeliosLauncher.git"
+    "url": "git+https://github.com/DivaCraft/Launcher.git"
   }
 }
