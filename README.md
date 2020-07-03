@@ -2,56 +2,56 @@
 
 <h1 align="center">DivaCraft Launcher</h1>
 
-<em><h5 align="center">(based on Helios Launcher, formerly Electron Launcher)</h5></em>
+<em><h5 align="center">(basé sur l'Helios Launcher, anciennement Electron Launcher)</h5></em>
 
 [<p align="center"><img src="https://img.shields.io/travis/DivaCraft/Launcher.svg?style=for-the-badge" alt="travis">](https://travis-ci.org/github/DivaCraft/Launcher) [<img src="https://img.shields.io/github/downloads/DivaCraft/Launcher/total.svg?style=for-the-badge" alt="downloads">](https://github.com/DivaCraft/Launcher/releases) <img src="https://forthebadge.com/images/badges/winter-is-coming.svg"  height="28px" alt="stark"></p>
 
-<p align="center">Join modded servers without worrying about installing Java, Forge, or other mods. We'll handle that for you.</p>
+<p align="center">Jouer au modpack/serveur DivaCraft sans se soucier d'installer Java, Forge ou des mods. Nous nous occupons de ça.</p>
 
 ![Screenshot 1](https://i.imgur.com/6o7SmH6.png)
 ![Screenshot 2](https://i.imgur.com/x3B34n1.png)
 
-## Features
+## Fonctionnalités
 
-* 🔒 Full account management.
-  * Add multiple accounts and easily switch between them.
-  * Credentials are never stored and transmitted directly to Mojang.
-* 📂 Efficient asset management.
-  * Receive client updates as soon as we release them.
-  * Files are validated before launch. Corrupt or incorrect files will be redownloaded.
-* ☕ **Automatic Java validation.**
-  * If you have an incompatible version of Java installed, we'll install the right one *for you*.
-  * You do not need to have Java installed to run the launcher.
-* 📰 News feed natively built into the launcher.
-* ⚙️ Intuitive settings management, including a Java control panel.
-* Supports all of our servers.
-  * Switch between server configurations with ease.
-  * View the player count of the selected server.
-* Automatic updates. That's right, the launcher updates itself.
-*  View the status of Mojang's services.
+* 🔒 Gestion de compte complète.
+  * Ajouter plusieurs comptes et changer de compte rapidement.
+  * Les identifiants de connexion ne sont jamais stockés et transmis directement à Mojang.
+* 📂 Gestion des fichiers éfficace.
+  * Recevez les mises à jour client au moment ou nous les publions.
+  * Les fichiers sont validés avant chaque démarrage. Les fichiers corrompus ou manquants seront retéléchargés.
+* ☕ **Validation automatique de Java.**
+  * Si vous avez une version incompatible de Java installée, nous installerons la bonne *pour vous*.
+  * Vous n'avez pas besoin d'avoir Java d'installé pour utiliser le launcher.
+* 📰 Fil de nouveautés intégré dans le launcher.
+* ⚙️ Paramètres intuitifs, inclus les paramètres Java.
+* Supporte le serveur DivaCraft
+  * Permet de changer de serveur (Beta, ...) simplement.
+  * Voir le nombre de joueurs connectés sur le serveur correspondant.
+* Mises à jour automatiques. Oui oui, le launcher se met à jour de lui même.
+* Permet de voir le status des serveurs de Mojang.
 
-This is not an exhaustive list. Download and install the launcher to gauge all it can do!
+Cette liste est non exhaustive. Téléchargez le launcher pour juger de ses fonctionnalités !
 
-#### Need Help? [Check the wiki.][wiki]
+#### Besoin d'aide ? [Visitez le Wiki (en Anglais).][wiki]
 
-#### Like the project? Leave a ⭐ star on the repository!
+#### Vous aimez le projet ? Laissez une ⭐ étoile sur le repository !
 
-## Downloads
+## Téléchargements
 
-You can download from [GitHub Releases](https://github.com/DivaCraft/Launcher/releases)
+Vous pouvez télécharger le launcher depuis les [Releases GitHub](https://github.com/DivaCraft/Launcher/releases)
 
-#### Latest Release
+#### Dernière Version
 
 [![](https://img.shields.io/github/release/DivaCraft/Launcher.svg?style=flat-square)](https://github.com/DivaCraft/Launcher/releases/latest)
 
-#### Latest Pre-Release
+#### Dernière Pre-Release
 [![](https://img.shields.io/github/release/DivaCraft/Launcher/all.svg?style=flat-square)](https://github.com/DivaCraft/Launcher/releases)
 
-**Supported Platforms**
+**Plateformes Supportées**
 
-If you download from the [Releases](https://github.com/DivaCraft/Launcher/releases) tab, select the installer for your system.
+Si vous téléchargez depuis l'onglet [Releases](https://github.com/DivaCraft/Launcher/releases), sélectionnez l'installeur en fonction de votre système d'exploitation.
 
-| Platform | File |
+| Plateforme | Fichier |
 | -------- | ---- |
 | Windows x64 | `divacraftlauncher-setup-VERSION.exe` |
 | macOS | `divacraftlauncher-VERSION.dmg` |
@@ -59,32 +59,32 @@ If you download from the [Releases](https://github.com/DivaCraft/Launcher/releas
 
 ## Console
 
-To open the console, use the following keybind.
+Pour ouvrir la console, utilisez le raccourci clavier suivant.
 
 ```console
 ctrl + shift + i
 ```
 
-Ensure that you have the console tab selected. Do not paste anything into the console unless you are 100% sure of what it will do. Pasting the wrong thing can expose sensitive information.
+Si vous ne voyez toujours pas la console, vérifiez que l'onglet "Console" est sélectionné. Ne copiez-collez jamais quoi que ce soit dans cette console SAUF si vous savez à 100% ce que vous faites. Copier-coller des commandes pourrait exposer des informations sensitives.
 
-#### Export Output to a File
+#### Exporter les logs vers un fichier
 
-If you want to export the console output, simply right click anywhere on the console and click **Save as..**
+Si vous voulez exporter les logs de la console, faites simplement un clique droit n'importe ou dans la console et cliquez sur **Save as..**
 
 ![console example](https://i.imgur.com/T5e73jP.png)
 
 
-## Development
+## Développement
 
-### Getting Started
+### Bien démarrer
 
-**System Requirements**
+**Prérequis**
 
 * [Node.js][nodejs] v12
 
 ---
 
-**Clone and Install Dependencies**
+**Clonage et installation des dépendances**
 
 ```console
 > git clone https://github.com/DivaCraft/Launcher.git
@@ -94,7 +94,7 @@ If you want to export the console output, simply right click anywhere on the con
 
 ---
 
-**Launch Application**
+**Démarrer l'Application**
 
 ```console
 > npm start
@@ -102,31 +102,31 @@ If you want to export the console output, simply right click anywhere on the con
 
 ---
 
-**Build Installers**
+**Compiler les installeurs**
 
-To build for your current platform.
+Pour compiler l'installeur de votre plateforme.
 
 ```console
 > npm run dist
 ```
 
-Build for a specific platform.
+Pour compiler pour une autre plateforme.
 
-| Platform    | Command              |
+| Platforme    | Commande              |
 | ----------- | -------------------- |
 | Windows x64 | `npm run dist:win`   |
 | macOS       | `npm run dist:mac`   |
 | Linux x64   | `npm run dist:linux` |
 
-Builds for macOS may not work on Windows/Linux and vice-versa.
+La compilation pour macOS ne fonctionnera pas sur Windows/Linux et vice-versa.
 
 ---
 
 ### Visual Studio Code
 
-All development of the launcher should be done using [Visual Studio Code][vscode].
+Le développement du launcher doit se faire via [Visual Studio Code][vscode].
 
-Paste the following into `.vscode/launch.json`
+Copier-coller dans `.vscode/launch.json`
 
 ```JSON
 {
@@ -163,46 +163,44 @@ Paste the following into `.vscode/launch.json`
 }
 ```
 
-This adds two debug configurations.
+Cela ajoute deux configurations de debug.
 
 #### Debug Main Process
 
-This allows you to debug Electron's [main process][mainprocess]. You can debug scripts in the [renderer process][rendererprocess] by opening the DevTools Window.
+Permet de debug le [main process][mainprocess] d'Electron. Vous pouvez débugger les scripts du [renderer process][rendererprocess] en ouvrant la console.
 
 #### Debug Renderer Process
 
-This allows you to debug Electron's [renderer process][rendererprocess]. This requires you to install the [Debugger for Chrome][chromedebugger] extension.
+Permet de debug le [renderer process][rendererprocess] d'Electron. Nécessite l'extension [Debugger for Chrome][chromedebugger].
 
-Note that you **cannot** open the DevTools window while using this debug configuration. Chromium only allows one debugger, opening another will crash the program.
-
----
-
-### Note on Third-Party Usage
-
-You may use this software in your own project so long as the following conditions are met.
-
-* Credit is expressly given to the original authors (Daniel Scalzi).
-  * Include a link to the original source on the launcher's About page.
-  * Credit the authors and provide a link to the original source in any publications or download pages.
-* The source code remain **public** as a fork of this repository.
-
-We reserve the right to update these conditions at any time, please check back periodically.
+Note : Vous ne **pouvez pas** ouvrir la console de développement en utilisant cette configuration de Debug. Chromium autorise un seul debugger, en ouvrir un second fera crash le programme.
 
 ---
 
-## Resources
+### Note sur l'utilisation par des tiers
 
-* [Wiki][wiki]
-* [Nebula (Create Distribution.json)][nebula]
-* [v2 Rewrite Branch (WIP)][v2branch]
+Vous pouvez utiliser ce logiciel dans votre propre projet pour autant que les conditions suivantes soient remplies.
 
-The best way to contact the developers is on Discord.
+* Le crédit est expressément accordé aux auteurs originaux (Daniel Scalzi).
+  * Inclure un lien vers la source originale sur la page "À propos" du launcher.
+  * Mentionner les auteurs et fournir un lien vers la source originale dans toute publication ou page de téléchargement.
+* Le code source reste **public** en tant que fork du dépot original.
+
+L'auteur original se réserve le droit d'actualiser ces conditions à tout moment.
+
+---
+
+## Ressources
+
+* [Wiki de l'Helios Launcher][wiki]
+
+Vous pouvez contacter les développeurs originaux du Launcher sur leur Discord (en Anglais) :
 
 [![discord](https://discordapp.com/api/guilds/211524927831015424/embed.png?style=banner3)][discord]
 
 ---
 
-### See you ingame.
+### À bientôt en jeu !
 
 
 [nodejs]: https://nodejs.org/en/ 'Node.js'
