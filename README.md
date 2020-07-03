@@ -8,8 +8,8 @@
 
 <p align="center">Jouer au modpack/serveur DivaCraft sans se soucier d'installer Java, Forge ou des mods. Nous nous occupons de ça.</p>
 
-![Screenshot 1](https://i.imgur.com/6o7SmH6.png)
-![Screenshot 2](https://i.imgur.com/x3B34n1.png)
+![Screenshot 1](https://i.imgur.com/gPDyCcx.png)
+![Screenshot 2](https://i.imgur.com/c0T8u91.jpg)
 
 ## Fonctionnalités
 
