@@ -20,7 +20,7 @@ builder.build({
     config: {
         appId: 'divacraftlauncher',
         productName: 'DivaCraft Launcher',
-        artifactName: '${appId}-setup-${version}.${ext}',
+        artifactName: '${productName}-setup-${version}.${ext}',
         copyright: 'Copyright © 2020 DivaCraft',
         directories: {
             buildResources: 'build',
