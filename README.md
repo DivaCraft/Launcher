@@ -4,12 +4,12 @@
 
 <em><h5 align="center">(basé sur l'Helios Launcher, anciennement Electron Launcher)</h5></em>
 
-[<p align="center"><img src="https://img.shields.io/travis/DivaCraft/Launcher.svg?style=for-the-badge" alt="travis">](https://travis-ci.org/github/DivaCraft/Launcher) [<img src="https://img.shields.io/github/downloads/DivaCraft/Launcher/total.svg?style=for-the-badge" alt="downloads">](https://github.com/DivaCraft/Launcher/releases) <img src="https://forthebadge.com/images/badges/winter-is-coming.svg"  height="28px" alt="stark"></p>
+[<p align="center"><img src="https://img.shields.io/travis/DivaCraft/Launcher.svg?style=for-the-badge" alt="travis">](https://travis-ci.org/github/DivaCraft/Launcher) [<img src="https://img.shields.io/github/downloads/DivaCraft/Launcher/total.svg?style=for-the-badge" alt="downloads">](https://github.com/DivaCraft/Launcher/releases) <img src="https://forthebadge.com/images/badges/built-with-swag.svg" height="28px" alt="stark"></p>
 
 <p align="center">Jouer au modpack/serveur DivaCraft sans se soucier d'installer Java, Forge ou des mods. Nous nous occupons de ça.</p>
 
-![Screenshot 1](https://i.imgur.com/gPDyCcx.png)
-![Screenshot 2](https://i.imgur.com/c0T8u91.jpg)
+![Screenshot 1](https://i.imgur.com/x7mg72M.png)
+![Screenshot 2](https://i.imgur.com/Njuas6j.png)
 
 ## Fonctionnalités
 
