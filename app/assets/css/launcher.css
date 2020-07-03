@@ -370,7 +370,7 @@ body, button {
 
 /* Styles for dimmer login span. */
 .loginSpanDim {
-    font-size: 12px;
+    font-size: 14px;
     color: #848484;
     font-weight: bold;
 }
@@ -468,7 +468,7 @@ body, button {
 
 /* Login form anchor styles. */
 #loginForm a {
-    font-size: 12px;
+    font-size: 14px;
     color: #848484;
     font-weight: bold;
     text-decoration: none;
@@ -485,12 +485,12 @@ body, button {
 
 /* Logo on login form. */
 #loginImageSeal {
-    border-radius: 50%;
+    /* border-radius: 50%;
     border: 2px solid #cad7e1;
     background: rgba(1, 2, 1, 0.5);
+    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0); */
     height: 125px;
     width: 125px;
-    box-shadow: 0px 0px 10px 0px rgb(0, 0, 0);
     margin-bottom: 20px;
 }
 
@@ -498,7 +498,7 @@ body, button {
 #loginSubheader {
     font-family: 'Avenir Medium';
     margin-bottom: 25px;
-    font-size: 12px;
+    font-size: 16px;
     letter-spacing: 1px;
     font-weight: bold;
 }
@@ -523,7 +523,7 @@ body, button {
 .loginErrorSpan {
     font-family: 'Avenir Medium';
     font-weight: bold;
-    font-size: 8px;
+    font-size: 10px;
     color: #ff1b0c;
     width: 100%;
     text-align: right;
@@ -569,7 +569,7 @@ body, button {
     text-align: center;
     box-sizing: border-box;
     padding: 7.5px;
-    font-size: 10px;
+    font-size: 13px;
     letter-spacing: 1px;
 }
 .loginField:focus {
@@ -785,7 +785,7 @@ body, button {
 
 /* Disclaimer text styles. */
 .loginDisclaimerText {
-    font-size: 7px;
+    font-size: 10px;
     color: #848484;
     font-weight: bold;
     text-align: center;
