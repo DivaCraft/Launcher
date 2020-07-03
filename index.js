@@ -136,12 +136,12 @@ function createMenu() {
         let applicationSubMenu = {
             label: 'Application',
             submenu: [{
-                label: 'About Application',
+                label: 'À propos',
                 selector: 'orderFrontStandardAboutPanel:'
             }, {
                 type: 'separator'
             }, {
-                label: 'Quit',
+                label: 'Quitter',
                 accelerator: 'Command+Q',
                 click: () => {
                     app.quit()
@@ -153,29 +153,29 @@ function createMenu() {
         let editSubMenu = {
             label: 'Edit',
             submenu: [{
-                label: 'Undo',
+                label: 'Annuler',
                 accelerator: 'CmdOrCtrl+Z',
                 selector: 'undo:'
             }, {
-                label: 'Redo',
+                label: 'Refaire',
                 accelerator: 'Shift+CmdOrCtrl+Z',
                 selector: 'redo:'
             }, {
                 type: 'separator'
             }, {
-                label: 'Cut',
+                label: 'Couper',
                 accelerator: 'CmdOrCtrl+X',
                 selector: 'cut:'
             }, {
-                label: 'Copy',
+                label: 'Copier',
                 accelerator: 'CmdOrCtrl+C',
                 selector: 'copy:'
             }, {
-                label: 'Paste',
+                label: 'Coller',
                 accelerator: 'CmdOrCtrl+V',
                 selector: 'paste:'
             }, {
-                label: 'Select All',
+                label: 'Tout Sélectionner',
                 accelerator: 'CmdOrCtrl+A',
                 selector: 'selectAll:'
             }]
