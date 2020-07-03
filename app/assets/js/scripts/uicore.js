@@ -26,9 +26,9 @@ window.eval = global.eval = function () {
 
 // Display warning when devtools window is opened.
 remote.getCurrentWebContents().on('devtools-opened', () => {
-    console.log('%cThe console is dark and full of terrors.', 'color: white; -webkit-text-stroke: 4px #a02d2a; font-size: 60px; font-weight: bold')
-    console.log('%cIf you\'ve been told to paste something here, you\'re being scammed.', 'font-size: 16px')
-    console.log('%cUnless you know exactly what you\'re doing, close this window.', 'font-size: 16px')
+    console.log('%cATTENTION !', 'color: white; -webkit-text-stroke: 4px #a02d2a; font-size: 60px; font-weight: bold')
+    console.log('%cSi on vous a demandé de copier-coller quelque chose ici, c\'est une arnaque.', 'font-size: 16px')
+    console.log('%cSi vous ne savez pas quoi faire ici, fermez cette fenêtre.', 'font-size: 16px')
 })
 
 // Disable zoom, needed for darwin.
@@ -48,7 +48,7 @@ if(!isDev){
                 loggerAutoUpdaterSuccess.log('New update available', info.version)
                 
                 if(process.platform === 'darwin'){
-                    info.darwindownload = `https://github.com/dscalzi/HeliosLauncher/releases/download/v${info.version}/helioslauncher-setup-${info.version}.dmg`
+                    info.darwindownload = `https://github.com/DivaCraft/Launcher/releases/download/v${info.version}/divacraftlauncher-setup-${info.version}.dmg`
                     showUpdateUI(info)
                 }
                 
@@ -184,8 +184,8 @@ document.addEventListener('readystatechange', function () {
         //const targetWidth3 = document.getElementById("launch_button").getBoundingClientRect().width
 
         document.getElementById('launch_details').style.maxWidth = 266.01
-        document.getElementById('launch_progress').style.width = 170.8
-        document.getElementById('launch_details_right').style.maxWidth = 170.8
+        document.getElementById('launch_progress').style.width = 178.8
+        document.getElementById('launch_details_right').style.maxWidth = 178.8
         document.getElementById('launch_progress_label').style.width = 53.21
         
     }
