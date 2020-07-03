@@ -11,7 +11,7 @@ exports.initRPC = function(genSettings, servSettings, initialDetails = 'Chargeme
 
     activity = {
         details: initialDetails,
-        state: 'Serveur : ' + servSettings.shortId,
+        state: 'ModPack : ' + servSettings.shortId,
         largeImageKey: servSettings.largeImageKey,
         largeImageText: servSettings.largeImageText,
         smallImageKey: genSettings.smallImageKey,
