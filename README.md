@@ -53,9 +53,9 @@ Si vous téléchargez depuis l'onglet [Releases](https://github.com/DivaCraft/La
 
 | Plateforme | Fichier |
 | -------- | ---- |
-| Windows x64 | `divacraftlauncher-setup-VERSION.exe` |
-| macOS | `divacraftlauncher-VERSION.dmg` |
-| Linux x64 | `divacraftlauncher-VERSION-x86_64.AppImage` |
+| Windows x64 | `DivaCraft-Launcher-setup-VERSION.exe` |
+| macOS | `DivaCraft-Launcher-setup-VERSION.dmg` |
+| Linux x64 | `DivaCraft-Launcher-setup-VERSION.AppImage` |
 
 ## Console
 
