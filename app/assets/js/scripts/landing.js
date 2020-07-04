@@ -265,7 +265,7 @@ function showLaunchFailure(title, desc){
     setOverlayContent(
         title,
         desc,
-        'Okay'
+        'Fermer'
     )
     setOverlayHandler(null)
     toggleOverlay(true)
@@ -610,13 +610,13 @@ function dlAsync(login = true){
                     
                     if(m.error.code === 'ENOENT'){
                         showLaunchFailure(
-                            'Download Error',
-                            'Could not connect to the file server. Ensure that you are connected to the internet and try again.'
+                            'Erreur lors du téléchargement',
+                            'Impossible de se connecter au serveur de fichiers. Vérifiez que vous êtes connecté à internet et réessayez.'
                         )
                     } else {
                         showLaunchFailure(
-                            'Download Error',
-                            'Check the console (CTRL + Shift + i) for more details. Please try again.'
+                            'Erreur lors du téléchargement',
+                            'Veuillez réessayer. Vérifiez la console (CTRL + Shift + i) pour plus de détails.'
                         )
                     }
 
@@ -701,7 +701,7 @@ function dlAsync(login = true){
                     proc.stdout.on('data', tempListener)
                     proc.stderr.on('data', gameErrorListener)
 
-                    setLaunchDetails('Terminé. Bon jeu !')
+                    setLaunchDetails('Lancement du jeu...')
 
                     // Init Discord Hook
                     const distro = DistroManager.getDistribution()

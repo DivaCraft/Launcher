@@ -694,9 +694,9 @@ function bindDropinModsRemoveButton(){
                 document.getElementById(fullName).remove()
             } else {
                 setOverlayContent(
-                    `Failed to Delete<br>Drop-in Mod ${fullName}`,
-                    'Make sure the file is not in use and try again.',
-                    'Okay'
+                    `Erreurs lors de la supression<br>Du mod customisé ${fullName}`,
+                    'Vérifiez que le fichier n\'est pas ouvert autre part et réessayez.',
+                    'Fermer'
                 )
                 setOverlayHandler(null)
                 toggleOverlay(true)
@@ -749,9 +749,9 @@ function saveDropinModConfiguration(){
                 DropinModUtil.toggleDropinMod(CACHE_SETTINGS_MODS_DIR, dropin.fullName, dropinUIEnabled).catch(err => {
                     if(!isOverlayVisible()){
                         setOverlayContent(
-                            'Failed to Toggle<br>One or More Drop-in Mods',
+                            'Erreur lors de l\'activation<br>d\'un ou plusieurs mods customisés',
                             err.message,
-                            'Okay'
+                            'Fermer'
                         )
                         setOverlayHandler(null)
                         toggleOverlay(true)
